@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@700&family=Roboto:wght@700&family=Ruwudu:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Ruwudu', serif; /*please select font-family accounding to your choice*/
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 85%;
+    height: 90%;
+    background-color: #dadada;
+}
+
+#center{
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(0%,-50%);
+    width: 75%;
+    height: 80%;
+}
+
+.imagecontainer{
+    overflow: hidden;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    
+}
+
+img{
+    
+    height: 100%;
+    
+}
+
+#one{
+    width: 0%;
+}
+
+.text{
+    position: absolute;
+    bottom: 45%;
+    left: -18%;
+    overflow: hidden;
+    width: 45%;
+    height: 20%;
+    z-index: 999;
+}
+
+.text h1{
+    top: 100%;
+    font-size: 8vw;
+    position: absolute;
+}
+
+.about{
+    position: absolute;
+    bottom: 20%;
+    left: -18%;
+    overflow: hidden;
+    width: 45%;
+    height: 20%;
+    z-index: 999;
+}
+
+.about h4{
+    top: 100%;
+    font-size: 1.3vw;
+    position: absolute;
+}
+
+.more{
+    position: absolute;
+    bottom: 5%;
+    left: -18%;
+    width: 15%;
+    height: 8%;
+}
+
+.more h4{
+    font-size: 1.8vw;
+}
+
+.icon{
+    position: absolute;
+    bottom: 0%;
+    right: 17%;
+    overflow: hidden;
+    width: 5%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.icon i{
+    font-size: 20px;
+    margin: 18px;
+    
+    
+}
+
+#box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
